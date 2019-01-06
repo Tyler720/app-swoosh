@@ -19,11 +19,10 @@ class ViewController: UIViewController {
         
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    //this function gets called when the back button is pressed on skill vc
+    @IBAction func unwindFromSkillVC(unwindSegue: UIStoryboardSegue) {
+        
     }
-
 
 }
 
